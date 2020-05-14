@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+address {
+    text-align: center;
+}
+
+.project-image {
+    height: 200px;
+    width: 150px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hidden-burger {
+    display:none;
+}
+
+.hamburger {
+    text-align: right;
+}
+
+.quizapp-description, .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media only screen and (min-width: 500px) {
+    h1 {
+        font-size: 2em;
+        color: red;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    address, .quizapp-description, .bio {
+        font-size: 1.5em;
+    }
+
+    .project-image {
+        width: 300px;
+        height: 350px;
+    }
+
+    .quizapp-description, .bio {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    h1 {
+        color: blue;
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    ul {
+        list-style-type: none;
+        font-size: 2em;
+    }
+
+    address, .quizapp-description, .bio {
+        font-size: 2.5em;
+    }
+
+    .project-image {
+        width: 400px;
+        height: 450px;
+    }
+
+
+    .hamburger {
+        display: none;
+    }
+
+    .hidden-burger {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+}
