@@ -1,6 +1,13 @@
 
 * {
     box-sizing: border-box;
+   
+
+}
+
+body {
+    background: 
+    linear-gradient(to bottom, rgb(173, 147, 147), pink);
 }
 
 h1, h2 {
@@ -33,13 +40,16 @@ address {
 
 .project-image {
     height: 200px;
-    width: 150px;
+    width: 100px;
+    border: 2px solid rgb(75, 5, 75);
+    border-radius: 5%;
 }
 
 .profile-pic {
     width: 100px;
-    height: 150px;
+    height: 125px;
     border-radius: 50%;
+    border: 3px solid white;
 }
 
 .hidden-burger {
@@ -72,7 +82,7 @@ address {
     }
 
     .project-image {
-        width: 300px;
+        width: 250px;
         height: 350px;
     }
 
@@ -102,7 +112,7 @@ address {
     }
 
     .project-image {
-        width: 400px;
+        width: 300px;
         height: 450px;
     }
 
