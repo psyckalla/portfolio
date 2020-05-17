@@ -1,13 +1,15 @@
 
 * {
     box-sizing: border-box;
-   
-
 }
 
 body {
     background: 
-    linear-gradient(to bottom, rgb(173, 147, 147), pink);
+    linear-gradient(to bottom, rgb(207, 243, 207), pink);
+}
+
+li {
+    font-size: 16px;
 }
 
 h1, h2 {
@@ -16,11 +18,21 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 1.2em;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: Spectral, sans-serif;
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Karla, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Karla, sans-serif;
 }
 
 img {
@@ -31,11 +43,16 @@ img {
 
 header {
     padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(21, 85, 21);
 }
 
 address {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
 }
 
 .project-image {
