@@ -87,7 +87,7 @@ ul {
     text-align: right;
 }
 
-.quizapp-description, .bio {
+.quizapp-description, .bio, .to-do-list-description {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
